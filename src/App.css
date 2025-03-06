@@ -4,7 +4,28 @@
   padding: 2rem;
   text-align: center;
 }
-
+.MainMenu{
+  font-size: larger;
+  font-family: Copperplate, Papyrus, fantasy;
+  background-color: #050303; /* Vit bakgrund för kontrast */
+  padding: 40px; /* Lägg till utrymme inuti boxen */
+  padding-bottom: 40px;
+  border-radius: 10px; /* Rundade hörn */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); /* Lägger till skugga */
+  max-width: 300px; /* Sätter en maxbredd */
+  margin: 50px auto; /* Centrerar boxen horisontellt */
+  text-align: center; /* Centrerar texten */
+  margin-left: 10px;
+  margin-top: 50px;
+  position: absolute; /* Lägg till detta för att kunna flytta objektet */
+}
+.MainOrders {
+  font-family: Copperplate, Papyrus, fantasy;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
 .logo {
   height: 6em;
   padding: 1.5em;

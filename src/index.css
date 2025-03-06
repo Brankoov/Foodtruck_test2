@@ -22,22 +22,36 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
   
- 
-  min-width: 320px;
-  min-height: 100vh;
+  overflow-x: hidden; /* Döljer horisontell scroll */
+  
 }
 
-
 h1 {
-  
+  background-color: #321a01;
+  color: white;
   font-family: Copperplate, Papyrus, fantasy;
-  margin-left: 10px;
-  margin-top: 1px;
   font-size: 3.2em;
-  line-height: 1.1;
   font-style: italic;
+  text-align: center;
+  width: 100%;
+  position:relative;
+  padding: 45px;
+  margin: 0;
+  
+}
+.divider {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background-color: gold;
+  border: none;
+  margin-top: 10px;
 }
 
 button {
@@ -59,15 +73,4 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
